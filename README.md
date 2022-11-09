@@ -14,3 +14,7 @@ https://www.youtube.com/playlist?list=PL2935W76vRNHFpPUuqmLoGCzwx_8eq5yK
 **GPU Programming:**
 
 [face rendering in GLSL](https://www.evl.uic.edu/sjames/cs525/project1.html)
+
+**Three.js:**
+
+https://threejs.org/docs/#manual/en/introduction/Creating-a-scene
