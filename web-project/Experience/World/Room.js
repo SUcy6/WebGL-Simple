@@ -20,6 +20,19 @@ export default class Room {
     }
 
     setModel(){
+        this.actualRoom.children.forEach(child=> {
+
+            child.castShadow = true;
+            child.receiveShadow = true;
+            // console.log(child);
+            if(child instanceof THREE.Group){
+                child.children.forEach((groupchild)=>{
+                    groupchild.castShadow = true;
+                    groupchild.receiveShadow = true;
+                })
+            }
+            
+        });
         this.scene.add(this.actualRoom);
     }
 
